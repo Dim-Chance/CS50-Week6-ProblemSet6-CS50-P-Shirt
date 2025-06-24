@@ -35,7 +35,7 @@ def main():
 
         file = Image.open(read_file)
         #output = Image.open(write_file)
-        shirt_image = Image.open("shirt.png")
+        shirt_image = Image.open("shirt.png").convert("RGBA")
 
 
         file_size = shirt_image.size
